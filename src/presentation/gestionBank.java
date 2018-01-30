@@ -287,7 +287,7 @@ class Customer {
     }
 
     public void display() {
-        System.out.println("Name: " + name + ",Account Number: " + account.getAccountNumber() + ", Balance: " + account.getBalance());
+        System.out.println("Nom: " + name + ", Compte No: " + account.getAccountNumber() + ", Balance: " + account.getBalance());
     }
 
     public String getName() {
